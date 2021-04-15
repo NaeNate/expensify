@@ -18,4 +18,6 @@ const mapStateToProps = (state) => {
   };
 };
 
-export default ConnectedExpenseList = connect(mapStateToProps)(ExpenseList);
+const ConnectedExpenseList = connect(mapStateToProps)(ExpenseList);
+
+export default ConnectedExpenseList;
